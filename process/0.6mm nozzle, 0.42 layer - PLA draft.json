@@ -1,0 +1,14 @@
+{
+    "from": "User",
+    "infill_wall_overlap": "10%",
+    "inherits": "0.42mm Extra Draft @BBL A1M 0.6 nozzle",
+    "inner_wall_speed": "250",
+    "is_custom_defined": "0",
+    "name": "0.6mm nozzle, 0.42 layer - PLA draft",
+    "precise_z_height": "1",
+    "print_settings_id": "0.6mm nozzle, 0.42 layer - PLA draft",
+    "small_perimeter_threshold": "10",
+    "sparse_infill_speed": "150",
+    "version": "1.9.0.14",
+    "wall_generator": "arachne"
+}

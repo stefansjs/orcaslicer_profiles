@@ -1,0 +1,32 @@
+{
+    "bed_custom_model": "E:\\\\Documents\\\\3d models\\\\printer accessories\\\\miniPP print bed.stl",
+    "from": "User",
+    "inherits": "Voron Zero 120mm3 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_start_gcode": "M140 S[bed_temperature_initial_layer_single]\nM104 S[nozzle_temperature_initial_layer]\n\n# Park the nozzle on the bed so that it doesn't ooze as the nozzle heats up\nG28\nG90\nG1 X75 Y-2\nG1 Z-1\n\nM190 S[bed_temperature_initial_layer_single]\nM109 S[nozzle_temperature_initial_layer]\nPRINT_START EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single]\n; You can use following code instead if your PRINT_START macro support Chamber and print area bedmesh\n; PRINT_START EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single] Chamber=[chamber_temperature] PRINT_MIN={first_layer_print_min[0]},{first_layer_print_min[1]} PRINT_MAX={first_layer_print_max[0]},{first_layer_print_max[1]}",
+    "name": "miniPP 0.4mm nozzle",
+    "nozzle_type": "brass",
+    "pellet_modded_printer": "1",
+    "print_host": "alfie.local",
+    "printable_area": [
+        "106x24",
+        "111x29",
+        "111x113",
+        "0x113",
+        "0x29",
+        "5x24",
+        "5x0",
+        "106x0"
+    ],
+    "printer_settings_id": "miniPP 0.4mm nozzle",
+    "purge_in_prime_tower": "0",
+    "retraction_length": [
+        "5"
+    ],
+    "retraction_speed": [
+        "50"
+    ],
+    "single_extruder_multi_material": "0",
+    "support_multi_bed_types": "1",
+    "version": "2.3.0.0"
+}

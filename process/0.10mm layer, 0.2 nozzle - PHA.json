@@ -1,0 +1,16 @@
+{
+    "from": "User",
+    "inherits": "0.10mm Standard @BBL A1M 0.2 nozzle",
+    "ironing_flow": "20%",
+    "ironing_spacing": "0.1",
+    "ironing_speed": "50",
+    "is_custom_defined": "0",
+    "name": "0.10mm layer, 0.2 nozzle - PHA",
+    "prime_tower_brim_width": "1",
+    "prime_tower_width": "3",
+    "prime_volume": "1",
+    "print_settings_id": "0.10mm layer, 0.2 nozzle - PHA",
+    "sparse_infill_pattern": "crosshatch",
+    "top_surface_speed": "50",
+    "version": "1.9.0.14"
+}

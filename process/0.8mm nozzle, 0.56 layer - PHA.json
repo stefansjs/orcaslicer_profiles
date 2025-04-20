@@ -1,0 +1,12 @@
+{
+    "brim_type": "outer_only",
+    "brim_width": "8",
+    "from": "User",
+    "inherits": "0.56mm Extra Draft @BBL A1M 0.8 nozzle",
+    "layer_height": "0.4",
+    "name": "0.8mm nozzle, 0.56 layer - PHA",
+    "print_settings_id": "0.8mm nozzle, 0.56 layer - PHA",
+    "reduce_crossing_wall": "1",
+    "version": "1.9.0.14",
+    "wall_generator": "arachne"
+}

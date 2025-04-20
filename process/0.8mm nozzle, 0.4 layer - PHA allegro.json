@@ -1,0 +1,21 @@
+{
+    "brim_object_gap": "0.2",
+    "brim_type": "outer_only",
+    "brim_width": "8",
+    "enable_prime_tower": "0",
+    "from": "User",
+    "infill_combination": "1",
+    "inherits": "0.40mm Standard @BBL A1M 0.8 nozzle",
+    "internal_bridge_speed": "50%",
+    "name": "0.8mm nozzle, 0.4 layer - PHA allegro",
+    "print_settings_id": "0.8mm nozzle, 0.4 layer - PHA allegro",
+    "slowdown_for_curled_perimeters": "1",
+    "small_perimeter_threshold": "30",
+    "sparse_infill_pattern": "cubic",
+    "sparse_infill_speed": "75",
+    "staggered_inner_seams": "1",
+    "version": "1.9.0.14",
+    "wall_generator": "arachne",
+    "wipe_before_external_loop": "1",
+    "wipe_on_loops": "1"
+}

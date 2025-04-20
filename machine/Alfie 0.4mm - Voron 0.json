@@ -1,0 +1,14 @@
+{
+    "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\nG92 E0\nSET_PRINT_STATS_INFO CURRENT_LAYER={layer_num+1}",
+    "fan_kickstart": "1",
+    "from": "User",
+    "inherits": "Voron 0.1 0.4 nozzle",
+    "is_custom_defined": "0",
+    "layer_change_gcode": ";AFTER_LAYER_CHANGE\n;[layer_z]\n",
+    "machine_start_gcode": "; tell klipper how many total layers there are in the file\nSET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count] CURRENT_LAYER=0\n\n{if bed_temperature_initial_layer_single > 30}\n    M190 S{bed_temperature_initial_layer_single}\n{endif}\nM109 S[nozzle_temperature_initial_layer]\n\nPRINT_START EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single]\n; You can use following code instead if your PRINT_START macro support Chamber and print area bedmesh\n; PRINT_START EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single] Chamber=[chamber_temperature] PRINT_MIN={first_layer_print_min[0]},{first_layer_print_min[1]} PRINT_MAX={first_layer_print_max[0]},{first_layer_print_max[1]}\n\nPURGE_LINE",
+    "name": "Alfie 0.4mm - Voron 0",
+    "nozzle_type": "hardened_steel",
+    "print_host": "192.168.0.200",
+    "printer_settings_id": "Alfie 0.4mm - Voron 0",
+    "version": "2.1.1.0"
+}

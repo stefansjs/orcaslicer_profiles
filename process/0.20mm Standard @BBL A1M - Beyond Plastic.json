@@ -1,0 +1,16 @@
+{
+    "bottom_surface_pattern": "concentric",
+    "brim_type": "outer_and_inner",
+    "brim_width": "8",
+    "enable_prime_tower": "0",
+    "from": "User",
+    "inherits": "0.20mm Standard @BBL A1M",
+    "is_infill_first": "1",
+    "name": "0.20mm Standard @BBL A1M - Beyond Plastic",
+    "print_settings_id": "0.20mm Standard @BBL A1M - Beyond Plastic",
+    "sparse_infill_density": "10%",
+    "sparse_infill_pattern": "adaptivecubic",
+    "top_surface_pattern": "concentric",
+    "version": "1.9.0.14",
+    "wall_sequence": "outer wall/inner wall"
+}

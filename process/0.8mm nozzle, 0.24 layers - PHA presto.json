@@ -1,0 +1,16 @@
+{
+    "brim_type": "outer_and_inner",
+    "brim_width": "10",
+    "from": "User",
+    "inherits": "0.24mm Fine @BBL A1M 0.8 nozzle",
+    "internal_solid_infill_speed": "100",
+    "name": "0.8mm nozzle, 0.24 layers - PHA presto",
+    "print_settings_id": "0.8mm nozzle, 0.24 layers - PHA presto",
+    "slowdown_for_curled_perimeters": "1",
+    "small_perimeter_threshold": "30",
+    "staggered_inner_seams": "1",
+    "top_surface_speed": "50",
+    "version": "1.9.0.14",
+    "wipe_before_external_loop": "1",
+    "wipe_on_loops": "1"
+}

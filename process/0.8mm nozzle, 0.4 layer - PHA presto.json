@@ -1,0 +1,22 @@
+{
+    "bridge_speed": "20",
+    "brim_object_gap": "0.25",
+    "brim_type": "outer_only",
+    "brim_width": "8",
+    "enable_prime_tower": "0",
+    "from": "User",
+    "infill_combination": "1",
+    "inherits": "0.40mm Standard @BBL A1M 0.8 nozzle",
+    "inner_wall_speed": "200",
+    "name": "0.8mm nozzle, 0.4 layer - PHA presto",
+    "outer_wall_speed": "150",
+    "print_settings_id": "0.8mm nozzle, 0.4 layer - PHA presto",
+    "slowdown_for_curled_perimeters": "1",
+    "small_perimeter_threshold": "30",
+    "sparse_infill_pattern": "zig-zag",
+    "staggered_inner_seams": "1",
+    "version": "1.9.0.14",
+    "wall_generator": "arachne",
+    "wipe_before_external_loop": "1",
+    "wipe_on_loops": "1"
+}

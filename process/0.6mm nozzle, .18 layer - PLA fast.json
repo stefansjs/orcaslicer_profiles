@@ -1,0 +1,13 @@
+{
+    "from": "User",
+    "inherits": "0.18mm Fine @BBL A1M 0.6 nozzle",
+    "inner_wall_speed": "200",
+    "is_custom_defined": "0",
+    "name": "0.6mm nozzle, .18 layer - PLA fast",
+    "print_settings_id": "0.6mm nozzle, .18 layer - PLA fast",
+    "seam_position": "back",
+    "small_perimeter_threshold": "10",
+    "sparse_infill_speed": "150",
+    "version": "1.9.0.14",
+    "wall_sequence": "outer wall/inner wall"
+}
