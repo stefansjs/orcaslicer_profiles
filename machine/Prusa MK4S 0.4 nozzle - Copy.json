@@ -1,0 +1,10 @@
+{
+    "from": "User",
+    "inherits": "Prusa MK4S 0.4 nozzle",
+    "is_custom_defined": "0",
+    "name": "Prusa MK4S 0.4 nozzle - Copy",
+    "printer_settings_id": "Prusa MK4S 0.4 nozzle - Copy",
+    "purge_in_prime_tower": "0",
+    "single_extruder_multi_material": "1",
+    "version": "2.3.0.3"
+}

@@ -1,0 +1,9 @@
+{
+    "filename_format": "{input_filename_base}-{printer_model}-{filament_type[0]}-{print_time}.gcode",
+    "from": "User",
+    "inherits": "0.20mm SPEED @MK4S 0.4",
+    "is_custom_defined": "0",
+    "name": "SPEED - 0.4 nozzle, 0.2 layers",
+    "print_settings_id": "SPEED - 0.4 nozzle, 0.2 layers",
+    "version": "2.3.0.3"
+}

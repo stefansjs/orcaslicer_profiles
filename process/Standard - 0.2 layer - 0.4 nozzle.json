@@ -1,0 +1,8 @@
+{
+    "filename_format": "{input_filename_base}-{printer_model}-{filament_type[0]}-{print_time}.gcode",
+    "from": "User",
+    "inherits": "0.20mm Standard @MK4",
+    "name": "Standard - 0.2 layer - 0.4 nozzle",
+    "print_settings_id": "Standard - 0.2 layer - 0.4 nozzle",
+    "version": "2.3.0.3"
+}

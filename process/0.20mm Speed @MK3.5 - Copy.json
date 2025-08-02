@@ -1,0 +1,8 @@
+{
+    "filename_format": "{input_filename_base}-{printer_model}-{filament_type[initial_tool]}-{print_time}.gcode",
+    "from": "User",
+    "inherits": "0.20mm Speed @MK3.5",
+    "name": "0.20mm Speed @MK3.5 - Copy",
+    "print_settings_id": "0.20mm Speed @MK3.5 - Copy",
+    "version": "2.3.0.3"
+}

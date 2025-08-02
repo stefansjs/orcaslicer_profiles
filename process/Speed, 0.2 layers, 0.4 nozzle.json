@@ -1,0 +1,12 @@
+{
+    "brim_type": "auto_brim",
+    "brim_width": "5",
+    "filename_format": "{input_filename_base}-{printer_model}-{filament_type[0]}-{print_time}.gcode",
+    "from": "User",
+    "inherits": "0.20mm Speed @MK3S 0.4",
+    "is_custom_defined": "0",
+    "name": "Speed, 0.2 layers, 0.4 nozzle",
+    "print_settings_id": "Speed, 0.2 layers, 0.4 nozzle",
+    "skirt_loops": "0",
+    "version": "2.3.0.3"
+}
