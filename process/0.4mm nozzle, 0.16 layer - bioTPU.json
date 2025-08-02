@@ -1,0 +1,23 @@
+{
+    "bridge_speed": "10",
+    "brim_object_gap": "0.05",
+    "brim_width": "3",
+    "from": "User",
+    "inherits": "0.20mm Standard @BBL A1M",
+    "internal_bridge_speed": "50",
+    "layer_height": "0.16",
+    "max_travel_detour_distance": "15",
+    "name": "0.4mm nozzle, 0.16 layer - bioTPU",
+    "overhang_2_4_speed": "25",
+    "overhang_3_4_speed": "15",
+    "prime_tower_width": "5",
+    "prime_volume": "3",
+    "print_settings_id": "0.4mm nozzle, 0.16 layer - bioTPU",
+    "reduce_crossing_wall": "1",
+    "slowdown_for_curled_perimeters": "0",
+    "small_perimeter_speed": "50",
+    "small_perimeter_threshold": "10",
+    "top_bottom_infill_wall_overlap": "10%",
+    "version": "1.9.0.14",
+    "wall_loops": "3"
+}
