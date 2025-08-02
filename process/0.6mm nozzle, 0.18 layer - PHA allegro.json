@@ -18,7 +18,6 @@
     "print_settings_id": "0.6mm nozzle, 0.18 layer - PHA allegro",
     "reduce_crossing_wall": "1",
     "seam_position": "back",
-    "slowdown_for_curled_perimeters": "1",
     "small_perimeter_threshold": "10",
     "staggered_inner_seams": "1",
     "support_type": "tree(auto)",

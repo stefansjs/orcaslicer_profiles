@@ -3,7 +3,6 @@
     "inherits": "0.24mm Fine @BBL A1M 0.8 nozzle",
     "name": "0.8mm nozzle, 0.24 layer - PHA allegro",
     "print_settings_id": "0.8mm nozzle, 0.24 layer - PHA allegro",
-    "slowdown_for_curled_perimeters": "1",
     "small_perimeter_threshold": "10",
     "thick_internal_bridges": "0",
     "version": "1.9.0.14"

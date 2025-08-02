@@ -7,7 +7,6 @@
     "from": "User",
     "inherits": "0.20mm Standard @BBL A1M",
     "internal_bridge_speed": "50",
-    "is_custom_defined": "0",
     "name": "0.20mm nozzle, 0.2 layer - PHA strong",
     "outer_wall_speed": "75",
     "print_settings_id": "0.20mm nozzle, 0.2 layer - PHA strong",

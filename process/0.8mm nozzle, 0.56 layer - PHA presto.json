@@ -12,7 +12,6 @@
     "precise_outer_wall": "1",
     "print_settings_id": "0.8mm nozzle, 0.56 layer - PHA presto",
     "reduce_crossing_wall": "1",
-    "slowdown_for_curled_perimeters": "1",
     "small_perimeter_speed": "50",
     "small_perimeter_threshold": "10",
     "sparse_infill_speed": "200",

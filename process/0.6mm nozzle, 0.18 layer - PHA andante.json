@@ -1,6 +1,6 @@
 {
     "bridge_speed": "15",
-    "brim_type": "no_brim",
+    "brim_type": "outer_only",
     "brim_width": "10",
     "enable_prime_tower": "0",
     "from": "User",

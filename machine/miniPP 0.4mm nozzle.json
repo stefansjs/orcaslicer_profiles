@@ -2,7 +2,6 @@
     "bed_custom_model": "E:\\\\Documents\\\\3d models\\\\printer accessories\\\\miniPP print bed.stl",
     "from": "User",
     "inherits": "Voron Zero 120mm3 0.4 nozzle",
-    "is_custom_defined": "0",
     "machine_start_gcode": "M140 S[bed_temperature_initial_layer_single]\nM104 S[nozzle_temperature_initial_layer]\n\n# Park the nozzle on the bed so that it doesn't ooze as the nozzle heats up\nG28\nG90\nG1 X75 Y-2\nG1 Z-1\n\nM190 S[bed_temperature_initial_layer_single]\nM109 S[nozzle_temperature_initial_layer]\nPRINT_START EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single]\n; You can use following code instead if your PRINT_START macro support Chamber and print area bedmesh\n; PRINT_START EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single] Chamber=[chamber_temperature] PRINT_MIN={first_layer_print_min[0]},{first_layer_print_min[1]} PRINT_MAX={first_layer_print_max[0]},{first_layer_print_max[1]}",
     "name": "miniPP 0.4mm nozzle",
     "nozzle_type": "brass",

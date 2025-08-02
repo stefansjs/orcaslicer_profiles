@@ -9,7 +9,6 @@
     "internal_bridge_speed": "50%",
     "name": "0.8mm nozzle, 0.4 layer - PHA allegro",
     "print_settings_id": "0.8mm nozzle, 0.4 layer - PHA allegro",
-    "slowdown_for_curled_perimeters": "1",
     "small_perimeter_threshold": "30",
     "sparse_infill_pattern": "cubic",
     "sparse_infill_speed": "75",

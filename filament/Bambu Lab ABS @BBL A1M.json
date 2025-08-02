@@ -39,7 +39,7 @@
         "0"
     ],
     "filament_max_volumetric_speed": [
-        "14"
+        "16"
     ],
     "filament_settings_id": [
         "Bambu Lab ABS @BBL A1M"
@@ -58,7 +58,6 @@
         "80"
     ],
     "inherits": "Bambu PVA @BBL A1M",
-    "is_custom_defined": "0",
     "name": "Bambu Lab ABS @BBL A1M",
     "nozzle_temperature_initial_layer": [
         "250"

@@ -14,7 +14,6 @@
     "overhang_2_4_speed": "25",
     "print_settings_id": "0.8mm nozzle, 0.24 layers - PHA adagio",
     "reduce_crossing_wall": "1",
-    "slowdown_for_curled_perimeters": "1",
     "small_perimeter_threshold": "30",
     "sparse_infill_speed": "125",
     "staggered_inner_seams": "1",

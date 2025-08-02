@@ -23,7 +23,6 @@
     "reduce_crossing_wall": "1",
     "seam_position": "random",
     "slow_down_layers": "2",
-    "slowdown_for_curled_perimeters": "1",
     "small_perimeter_threshold": "10",
     "staggered_inner_seams": "1",
     "support_interface_top_layers": "0",
